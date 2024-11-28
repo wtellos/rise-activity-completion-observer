@@ -1,4 +1,4 @@
-    function rise_load_completion_3($topic_id, $lesson_id) {
+    function rise_load_completion($topic_id, $lesson_id) {
         $(".iframe-SCORM").on("load", function () {
             console.log('loaded iframe-SCORM !');
     
